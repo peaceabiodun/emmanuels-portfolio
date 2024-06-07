@@ -5,8 +5,10 @@ const About = () => {
         Emmanuel Braboke
       </h2>
       <p className='text-[#d6d0d0] text-sm md:text-lg my-6 max-w-[550px] text-center '>
-        Over the past few years, I have built alot of backend infrastructures
-        blah blah blah
+        Result driven backend developer with experience building web based
+        applications using Node.js and Golang. Competent in communication,
+        collaboration, and also proficient in web API design. Eager to join a
+        team of developers and contribute to the development of applications
       </p>
       <div className='text-[#d6d0d0] text-sm md:text-lg text-center'>
         <p>Click to check out my blog posts and learn more about me</p>

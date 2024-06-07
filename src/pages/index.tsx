@@ -3,8 +3,10 @@ import { MdEmail } from 'react-icons/md';
 import About from '../components/about';
 import Skills from '../components/skills';
 import Projects from '../components/projects';
+import Contact from '../components/contact';
 
 const MainPage = () => {
+  const currentYear = new Date().getFullYear();
   return (
     <div className='bg-main w-full h-full min-h-screen p-5 sm:p-10'>
       <div className='flex justify-center md:justify-between gap-4'>
@@ -54,6 +56,12 @@ const MainPage = () => {
       <About />
       <Skills />
       <Projects />
+      <Contact />
+      <div className=' border-t-2 border-[#222769] pt-5 '>
+        <p className=' text-[10px] text-center text-white'>
+          © {currentYear} Implemented by Peace Abiodun{' '}
+        </p>
+      </div>
     </div>
   );
 };
